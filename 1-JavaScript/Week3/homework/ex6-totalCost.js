@@ -1,5 +1,5 @@
-'use strict';
-/*------------------------------------------------------------------------------
+"use strict";
+      /*------------------------------------------------------------------------------
 Full description at: https://github.com/HackYourFuture/Homework/tree/main/1-JavaScript/Week3#exercise-6-total-cost-is
 
 You want to buy a couple of things from the supermarket to prepare for a party.
@@ -20,28 +20,43 @@ instead!
 
 3. Complete the unit test functions and verify that all is working as expected.
 -----------------------------------------------------------------------------*/
-const cartForParty = {
-  // TODO complete this object
-};
+      const cartForParty = {
+        chips: 7,
+        pepsi: 8.5,
+        chocolates: 11,
+        cake: 13.9,
+        cookies: 6.75,
+        // TODO complete this object
+      };
 
-function calculateTotalPrice(/* TODO parameter(s) go here */) {
-  // TODO replace this comment with your code
-}
+      function calculateTotalPrice(cartForParty) {
+        let sum = 0;
+        for (let key in cartForParty) {
+          sum += cartForParty[key];
+        }
+        return `Total: €${sum}`; // TODO replace this comment with your code
+      }
 
-// ! Test functions (plain vanilla JavaScript)
-function test1() {
-  console.log('\nTest 1: calculateTotalPrice should take one parameter');
-  // TODO replace this comment with your code
-}
+      // ! Test functions (plain vanilla JavaScript)
+      function test1() {
+        console.log("\nTest 1: calculateTotalPrice should take one parameter");
+        console.assert(calculateTotalPrice.length === 1);
+        // TODO replace this comment with your code
+      }
 
-function test2() {
-  console.log('\nTest 2: return correct output when passed cartForParty');
-  // TODO replace this comment with your code
-}
+      function test2() {
+        console.log("\nTest 2: return correct output when passed cartForParty");
+        let result = calculateTotalPrice(cartForParty);
+        const actual = calculateTotalPrice(cartForParty);
+        const expected = "Total: €47.15";
+        console.assert(actual === expected);
+        console.log(result);
+        // TODO replace this comment with your code
+      }
 
-function test() {
-  test1();
-  test2();
-}
+      function test() {
+        test1();
+        test2();
+      }
 
-test();
+      test();
