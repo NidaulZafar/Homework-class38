@@ -28,13 +28,21 @@ instead!
         cookies: 6.75,
         // TODO complete this object
       };
-
+/*  Using for - in method
       function calculateTotalPrice(cartForParty) {
         let sum = 0;
         for (let key in cartForParty) {
           sum += cartForParty[key];
         }
         return `Total: €${sum}`; // TODO replace this comment with your code
+      }   */
+
+// Using for-each method
+      function calculateTotalPrice(cartForParty) {
+        let sum = Object.values(cartForParty);
+        let total = 0;
+        sum.forEach((item) => (total += item));
+        return `Total: €${total.toFixed(2)}`; // TODO replace this comment with your code
       }
 
       // ! Test functions (plain vanilla JavaScript)
