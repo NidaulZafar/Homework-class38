@@ -31,11 +31,10 @@
         if (shoppingCart.length > 3) {
           shoppingCart.shift();
         }
-        const returnString = `You bought ${shoppingCart.join(", ")}!`;
-        return returnString;
+        return `You bought ${shoppingCart.join(", ")}!`;         
         // TODO complete this function
       }
-      console.log(addToShoppingCart());
+      
       // ! Test functions (plain vanilla JavaScript)
       function test1() {
         console.log(

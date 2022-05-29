@@ -18,12 +18,7 @@ it pure. Do the following:
       // ! Function under test
       function addToShoppingCart(shoppingCart, item) {
         let secondShoppingCart = [...shoppingCart, item];
-        if (secondShoppingCart.length > 3) {
-          secondShoppingCart = secondShoppingCart.slice(-3);
-          return secondShoppingCart;
-        } else {
-          return secondShoppingCart;
-        }
+        return secondShoppingCart.slice(-3);
         // TODO complete this function
       }
       // ! Test functions (plain vanilla JavaScript)

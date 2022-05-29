@@ -34,18 +34,17 @@ body, this code is now written once only in a separated function.
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
 function selectRandomly(arr) {
-  let randomProperty = [Math.floor(Math.random() * 5)];
+  let randomProperty = [Math.floor(Math.random() * arr.length)];
   return arr[randomProperty]; // TODO complete this function
 }
 
-function tellFortune(/* TODO add parameter(s) here */) {
+function tellFortune(numKids, partnerNames, locations, jobTitles) {
   // TODO complete this function
-
-  return `You will be a ${selectRandomly(jobTitles)} in ${selectRandomly(
-    locations
-  )}, married to a ${selectRandomly(partnerNames)} with ${selectRandomly(
-    numKids
-  )} kids.`;
+  const job = selectRandomly(jobTitles);
+  const loc = selectRandomly(locations);
+  const partner = selectRandomly(partnerNames);
+  const kids = selectRandomly(numKids);
+  return `You will be a ${job} in ${loc}, married to a ${partner} with ${kids} kids.`;
 }
 
 function main() {
@@ -82,12 +81,10 @@ function main() {
     // TODO add elements here
   ];
 
-
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
 }
-
 // ! Do not change or remove the code below
 if (process.env.NODE_ENV !== 'test') {
   main();
