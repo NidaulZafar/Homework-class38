@@ -34,17 +34,17 @@ body, this code is now written once only in a separated function.
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
 function selectRandomly(arr) {
-  let randomProperty = [Math.floor(Math.random() * arr.length)];
-  return arr[randomProperty]; // TODO complete this function
+  const randomProperty = [Math.floor(Math.random() * arr.length)];
+  return arr[randomProperty]; 
 }
 
 function tellFortune(numKids, partnerNames, locations, jobTitles) {
-  // TODO complete this function
+  
   const job = selectRandomly(jobTitles);
   const loc = selectRandomly(locations);
   const partner = selectRandomly(partnerNames);
   const kids = selectRandomly(numKids);
-  return `You will be a ${job} in ${loc}, married to a ${partner} with ${kids} kids.`;
+  return `You will be a ${job} in ${loc}, married to ${partner} with ${kids} kids.`;
 }
 
 function main() {
@@ -53,23 +53,23 @@ function main() {
     3,
     4,
     5,
-    10, // TODO add elements here
+    10, 
   ];
 
   const partnerNames = [
-    "hot girl", // TODO add elements here
-    "beautiful spouse", // TODO add elements here
-    "sweet girl", // TODO add elements here
-    "loving wife", // TODO add elements here
-    "kind wife", // TODO add elements here
+    "a hot girl", 
+    "a beautiful spouse", 
+    "a sweet girl", 
+    "a loving wife", 
+    "a kind wife",
   ];
 
   const locations = [
-    "Almere", // TODO add elements here
-    "Amsterdam", // TODO add elements here
-    "Hamburg", // TODO add elements here
-    "Groningen", // TODO add elements here
-    "Harderwijk", // TODO add elements here
+    "Almere", 
+    "Amsterdam", 
+    "Hamburg", 
+    "Groningen", 
+    "Harderwijk", 
   ];
 
   const jobTitles = [
@@ -78,7 +78,7 @@ function main() {
     "web engineer",
     "senior trainer",
     "back-end developer",
-    // TODO add elements here
+    
   ];
 
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));

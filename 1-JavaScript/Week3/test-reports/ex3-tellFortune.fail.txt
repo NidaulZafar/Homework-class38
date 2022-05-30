@@ -1,0 +1,5 @@
+
+*** Spell Checker Report ***
+
+ex3-tellFortune.js:68:6 - Unknown word (Almere)
+ex3-tellFortune.js:72:6 - Unknown word (Harderwijk)

@@ -74,3 +74,45 @@ ex1-giveCompliment.js:42:19 - Unknown word (Nida)
 
 ex1-giveCompliment.js:42:19 - Unknown word (Nida)
 
+2022-05-30 11:07:22 info: ----------------------------------------
+2022-05-30 11:07:22 info: >>> Running Unit Test `ex2-dogYears` <<<
+2022-05-30 11:07:22 info: ----------------------------------------
+2022-05-30 11:07:26 info: All unit tests passed.
+2022-05-30 11:07:30 info: All steps were completed successfully
+2022-05-30 11:08:29 info: -------------------------------------------
+2022-05-30 11:08:29 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-05-30 11:08:29 info: -------------------------------------------
+2022-05-30 11:08:33 error: *** Unit Test Error Report ***
+
+✕ tellFortune should have all TODO comments removed
+✕ tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a web developer in Almere, married to hot girl with 2 kids.
+  Received: You will be a web developer in Almere, married to a hot girl with 2 kids.
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="/Users/hackyourfuture/Desktop/hyf-course/Homework-class38/test-runner/CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-05-30 11:08:35 error: *** ESLint Report ***
+
+ex3-tellFortune.js
+  37:7  warning  'randomProperty' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-05-30 11:08:38 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:68:6 - Unknown word (Almere)
+ex3-tellFortune.js:72:6 - Unknown word (Harderwijk)
+
+2022-05-30 11:13:56 info: -------------------------------------------
+2022-05-30 11:13:56 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-05-30 11:13:56 info: -------------------------------------------
+2022-05-30 11:14:00 info: All unit tests passed.
+2022-05-30 11:14:04 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:68:6 - Unknown word (Almere)
+ex3-tellFortune.js:72:6 - Unknown word (Harderwijk)
+
