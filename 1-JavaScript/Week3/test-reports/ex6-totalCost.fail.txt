@@ -1,0 +1,9 @@
+
+*** ESLint Report ***
+
+ex6-totalCost.js
+  42:13  warning  'sum' is never reassigned. Use 'const' instead     no-autofix/prefer-const
+  57:13  warning  'result' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 2 problems (0 errors, 2 warnings)
+

@@ -116,3 +116,43 @@ ex3-tellFortune.js:72:6 - Unknown word (Harderwijk)
 ex3-tellFortune.js:68:6 - Unknown word (Almere)
 ex3-tellFortune.js:72:6 - Unknown word (Harderwijk)
 
+2022-05-30 11:14:57 info: --------------------------------------------
+2022-05-30 11:14:57 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2022-05-30 11:14:57 info: --------------------------------------------
+2022-05-30 11:14:57 warn: A unit test file was not provided.
+2022-05-30 11:15:01 info: All steps were completed successfully
+2022-05-30 11:15:18 info: ------------------------------------------------
+2022-05-30 11:15:18 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2022-05-30 11:15:18 info: ------------------------------------------------
+2022-05-30 11:15:18 warn: A unit test file was not provided.
+2022-05-30 11:15:20 error: *** ESLint Report ***
+
+ex5-shoppingCartPure.js
+  20:13  warning  'secondShoppingCart' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-05-30 11:15:50 info: ------------------------------------------------
+2022-05-30 11:15:50 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2022-05-30 11:15:50 info: ------------------------------------------------
+2022-05-30 11:15:50 warn: A unit test file was not provided.
+2022-05-30 11:15:53 info: All steps were completed successfully
+2022-05-30 11:16:07 info: -----------------------------------------
+2022-05-30 11:16:07 info: >>> Running Unit Test `ex6-totalCost` <<<
+2022-05-30 11:16:07 info: -----------------------------------------
+2022-05-30 11:16:07 warn: A unit test file was not provided.
+2022-05-30 11:16:09 error: *** ESLint Report ***
+
+ex6-totalCost.js
+  42:13  warning  'sum' is never reassigned. Use 'const' instead     no-autofix/prefer-const
+  57:13  warning  'result' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2022-05-30 11:16:52 info: -------------------------------------------
+2022-05-30 11:16:52 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2022-05-30 11:16:52 info: -------------------------------------------
+2022-05-30 11:16:52 warn: A unit test file was not provided.
+2022-05-30 11:16:56 info: All steps were completed successfully

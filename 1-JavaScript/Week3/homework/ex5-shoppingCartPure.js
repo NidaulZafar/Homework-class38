@@ -17,7 +17,7 @@ it pure. Do the following:
 ------------------------------------------------------------------------------*/
       // ! Function under test
       function addToShoppingCart(shoppingCart, item) {
-        let secondShoppingCart = [...shoppingCart, item];
+        const secondShoppingCart = [...shoppingCart, item];
         return secondShoppingCart.slice(-3);
         // TODO complete this function
       }

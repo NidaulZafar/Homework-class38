@@ -39,7 +39,7 @@ instead!
 
 // Using for-each method
       function calculateTotalPrice(cartForParty) {
-        let sum = Object.values(cartForParty);
+        const sum = Object.values(cartForParty);
         let total = 0;
         sum.forEach((item) => (total += item));
         return `Total: €${total.toFixed(2)}`; // TODO replace this comment with your code
@@ -54,7 +54,7 @@ instead!
 
       function test2() {
         console.log("\nTest 2: return correct output when passed cartForParty");
-        let result = calculateTotalPrice(cartForParty);
+        const result = calculateTotalPrice(cartForParty);
         const actual = calculateTotalPrice(cartForParty);
         const expected = "Total: €47.15";
         console.assert(actual === expected);
