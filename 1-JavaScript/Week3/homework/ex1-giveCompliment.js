@@ -31,14 +31,14 @@ function giveCompliment(name) {
     'handsome',
     'genius',
 
-  ]// TODO complete this function
-  let randomCompliment =
+  ]
+const randomCompliment =
           compliments[Math.floor(Math.random() * compliments.length)];
-        return `You are ${randomCompliment}, ${name}`;
+        return `You are ${randomCompliment}, ${name}!`;
       }
 
 function main() {
-  // TODO substitute your own name for "HackYourFuture"
+  
   const myName = 'Nida';
 
   console.log(giveCompliment(myName));
@@ -47,7 +47,7 @@ function main() {
 
   }
 
-// ! Do not change or remove the code below
+
 if (process.env.NODE_ENV !== 'test') {
   main();
 }

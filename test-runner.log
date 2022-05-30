@@ -1,0 +1,76 @@
+2022-05-30 11:00:56 info: ----------------------------------------------
+2022-05-30 11:00:56 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-05-30 11:00:56 info: ----------------------------------------------
+2022-05-30 11:01:00 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should have all TODO comments removed
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: You are great, HackYourFuture
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="/Users/hackyourfuture/Desktop/hyf-course/Homework-class38/test-runner/CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-05-30 11:01:02 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  35:7  warning  'randomCompliment' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-05-30 11:01:05 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:42:19 - Unknown word (Nida)
+
+2022-05-30 11:03:29 info: ----------------------------------------------
+2022-05-30 11:03:29 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-05-30 11:03:29 info: ----------------------------------------------
+2022-05-30 11:03:33 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should have all TODO comments removed
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="/Users/hackyourfuture/Desktop/hyf-course/Homework-class38/test-runner/CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2022-05-30 11:03:34 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  35:7  warning  'randomCompliment' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-05-30 11:03:36 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:42:19 - Unknown word (Nida)
+
+2022-05-30 11:04:32 info: ----------------------------------------------
+2022-05-30 11:04:32 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-05-30 11:04:32 info: ----------------------------------------------
+2022-05-30 11:04:35 info: All unit tests passed.
+2022-05-30 11:04:36 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  35:7  warning  'randomCompliment' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-05-30 11:04:39 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:42:19 - Unknown word (Nida)
+
+2022-05-30 11:05:16 info: Disclaimer turned off
+2022-05-30 11:05:22 info: ----------------------------------------------
+2022-05-30 11:05:22 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-05-30 11:05:22 info: ----------------------------------------------
+2022-05-30 11:05:26 info: All unit tests passed.
+2022-05-30 11:05:30 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:42:19 - Unknown word (Nida)
+
