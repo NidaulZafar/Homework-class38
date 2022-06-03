@@ -118,4 +118,6 @@ dist
 # test-runner
 .recent.json
 .disclaimer
-@homework*
+@homework*.DS-Store
+
+.DS-Store
