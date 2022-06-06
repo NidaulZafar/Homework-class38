@@ -168,3 +168,225 @@ ex6-totalCost.js
 2022-06-06 03:05:09 info: Exercise has not yet been modified
 2022-06-06 03:05:12 info: All unit tests passed.
 2022-06-06 03:05:16 info: All steps were completed successfully
+2022-06-06 08:38:59 info: ------------------------------------------------------
+2022-06-06 08:38:59 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-06-06 08:38:59 info: ------------------------------------------------------
+2022-06-06 08:38:59 info: Exercise has not yet been modified
+2022-06-06 08:39:03 info: All unit tests passed.
+2022-06-06 08:39:07 info: All steps were completed successfully
+2022-06-06 08:49:09 info: ------------------------------------------------------
+2022-06-06 08:49:09 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-06-06 08:49:09 info: ------------------------------------------------------
+2022-06-06 08:49:12 info: All unit tests passed.
+2022-06-06 08:49:16 info: All steps were completed successfully
+2022-06-06 08:49:35 info: ------------------------------------------------------
+2022-06-06 08:49:35 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-06-06 08:49:35 info: ------------------------------------------------------
+2022-06-06 08:49:38 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-doubleEvenNumbers.test.js --colors
+● Deprecation Warning:
+
+  Option "extraGlobals" was replaced by "sandboxInjectedGlobals".
+
+  Please update your configuration.
+
+  Configuration Documentation:
+  https://jestjs.io/docs/configuration
+
+● Deprecation Warning:
+
+  Option "extraGlobals" was replaced by "sandboxInjectedGlobals".
+
+  Please update your configuration.
+
+  Configuration Documentation:
+  https://jestjs.io/docs/configuration
+
+ FAIL  1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js
+  ✕ doubleEvenNumbers should take the even numbers and double them (8 ms)
+
+  ● doubleEvenNumbers should take the even numbers and double them
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Array [
+    -   4,
+    -   8,
+    +   6,
+    +   12,
+      ]
+
+      32 |   const actual = doubleEvenNumbers([1, 2, 3, 4]);
+      33 |   const expected = [4, 8];
+    > 34 |   expect(actual).toEqual(expected);
+         |                  ^
+      35 | });
+      36 |
+
+      at Object.toEqual (1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js:34:18)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.578 s, estimated 1 s
+Ran all test suites matching /ex1-doubleEvenNumbers.test.js/i.
+2022-06-06 08:50:27 info: ------------------------------------------------------
+2022-06-06 08:50:27 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-06-06 08:50:27 info: ------------------------------------------------------
+2022-06-06 08:50:30 info: All unit tests passed.
+2022-06-06 08:50:33 info: All steps were completed successfully
+2022-06-06 08:52:11 info: ------------------------------------------------------
+2022-06-06 08:52:11 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-06-06 08:52:11 info: ------------------------------------------------------
+2022-06-06 08:52:13 info: All unit tests passed.
+2022-06-06 08:52:16 info: All steps were completed successfully
+2022-06-06 08:53:27 info: ------------------------------------------------------
+2022-06-06 08:53:27 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-06-06 08:53:27 info: ------------------------------------------------------
+2022-06-06 08:53:29 info: All unit tests passed.
+2022-06-06 08:53:32 info: All steps were completed successfully
+2022-06-06 08:57:14 info: ------------------------------------------------------
+2022-06-06 08:57:14 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-06-06 08:57:14 info: ------------------------------------------------------
+2022-06-06 08:57:16 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-doubleEvenNumbers.test.js --colors
+● Deprecation Warning:
+
+  Option "extraGlobals" was replaced by "sandboxInjectedGlobals".
+
+  Please update your configuration.
+
+  Configuration Documentation:
+  https://jestjs.io/docs/configuration
+
+● Deprecation Warning:
+
+  Option "extraGlobals" was replaced by "sandboxInjectedGlobals".
+
+  Please update your configuration.
+
+  Configuration Documentation:
+  https://jestjs.io/docs/configuration
+
+ FAIL  1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js
+  ✕ doubleEvenNumbers should take the even numbers and double them (8 ms)
+
+  ● doubleEvenNumbers should take the even numbers and double them
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 0
+    + Received  + 2
+
+      Array [
+    +   2,
+        4,
+    +   6,
+        8,
+      ]
+
+      32 |   const actual = doubleEvenNumbers([1, 2, 3, 4]);
+      33 |   const expected = [4, 8];
+    > 34 |   expect(actual).toEqual(expected);
+         |                  ^
+      35 | });
+      36 |
+
+      at Object.toEqual (1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js:34:18)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.566 s, estimated 1 s
+Ran all test suites matching /ex1-doubleEvenNumbers.test.js/i.
+2022-06-06 08:58:28 info: ------------------------------------------------------
+2022-06-06 08:58:28 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-06-06 08:58:28 info: ------------------------------------------------------
+2022-06-06 08:58:31 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-doubleEvenNumbers.test.js --colors
+● Deprecation Warning:
+
+  Option "extraGlobals" was replaced by "sandboxInjectedGlobals".
+
+  Please update your configuration.
+
+  Configuration Documentation:
+  https://jestjs.io/docs/configuration
+
+● Deprecation Warning:
+
+  Option "extraGlobals" was replaced by "sandboxInjectedGlobals".
+
+  Please update your configuration.
+
+  Configuration Documentation:
+  https://jestjs.io/docs/configuration
+
+ FAIL  1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js
+  ✕ doubleEvenNumbers should take the even numbers and double them (5 ms)
+
+  ● doubleEvenNumbers should take the even numbers and double them
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: [4, 8]
+    Received: undefined
+
+      32 |   const actual = doubleEvenNumbers([1, 2, 3, 4]);
+      33 |   const expected = [4, 8];
+    > 34 |   expect(actual).toEqual(expected);
+         |                  ^
+      35 | });
+      36 |
+
+      at Object.toEqual (1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js:34:18)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.738 s, estimated 1 s
+Ran all test suites matching /ex1-doubleEvenNumbers.test.js/i.
+2022-06-06 08:58:33 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  15:6  warning  Results from `map` are unused. Replace `map` with `forEach`  no-restricted-syntax
+  15:6  error    Results from `map` are unused. Replace `map` with `forEach`  hyf/use-map-result
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2022-06-06 09:00:15 info: ------------------------------------------------------
+2022-06-06 09:00:15 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-06-06 09:00:15 info: ------------------------------------------------------
+2022-06-06 09:00:17 info: All unit tests passed.
+2022-06-06 09:00:18 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  17:5  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-06-06 09:01:16 info: ------------------------------------------------------
+2022-06-06 09:01:16 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-06-06 09:01:16 info: ------------------------------------------------------
+2022-06-06 09:01:18 info: All unit tests passed.
+2022-06-06 09:01:20 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  15:5  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-06-06 09:03:20 info: ------------------------------------------------------
+2022-06-06 09:03:20 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-06-06 09:03:20 info: ------------------------------------------------------
+2022-06-06 09:03:22 info: All unit tests passed.
+2022-06-06 09:03:25 info: All steps were completed successfully
