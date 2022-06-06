@@ -65,5 +65,6 @@
     "strip-ansi": "^7.0.1",
     "systeminformation": "^5.9.12",
     "winston": "^3.3.3"
-  }
+  },
+  "devDependencies": {}
 }
